@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import "./header.css";
+@import "./hero.css";
 @import "./button.css";
 @import "./button-icons.css";
 :root {
@@ -15,6 +16,7 @@
     --button: bold 14px/22px var(--fontBase);
     --caption: 12px/19px var(--fontBase);
     --purple: #310A90;
+    --purple-soft: #6F34FE;
     --green: #42E2B8;
     --white: #FFFFFF;
 }
@@ -22,4 +24,5 @@ body {
     background: var(--gradient);
     min-block-size: 100vh;
     font: var(--body1);
+    color: var(--purple);
 }
