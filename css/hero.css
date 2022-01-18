@@ -43,3 +43,33 @@
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: flex;
+        gap: 32px;
+    }
+    .hero__descrip {
+        order: 1;
+        max-inline-size: 450px;
+    }
+    .hero__img {
+        order: 2;
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+@media screen and (min-width: 1024px) {
+    .fondo {
+        width: 500px;
+        height: 504px;
+    }
+    .fondo img {
+        width: 374px;
+        height: 490px;
+    }
+    .rectangle__white {
+        height: 88px;
+    }
+}
+}

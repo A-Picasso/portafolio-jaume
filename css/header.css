@@ -2,5 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 3;
     block-size: 80px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(1px);
 }

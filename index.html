@@ -4,15 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portafolio Jaume</title>
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
+    <div class="wrapper">
       <header class="header">
         <img src="./images/LOGO.svg" width="70" height="20" alt="Logo">
+        <nav class="menu">
+          <ul>
+            <li>
+              <a class="is__active" href="#main">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
         <button class="button">Curriculum</button>
       </header>
-      <section class="hero">
+      <section class="hero" id="main">
         <div class="hero__img">
           <div class="fondo">
             <img src="./images/jaume.png" width="245" height="321" alt="Jaume">
@@ -34,5 +48,9 @@
           <a href="*" class="button">Descargar Curriculum</a>
         </div>
       </section>
+      <section class="message"></section>
+      <section class="projects" id="project"></section>
+      <section class="testimony"></section>
+    </div>
   </body>
 </html>
