@@ -1,0 +1,61 @@
+.testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 328px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 24px;
+    border-top: 2px solid var(--white);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+}
+.container__size-1 {
+    height: 329px;
+}
+.container__size-2 {
+    height: 248px;
+}
+.container__size-3 {
+    height: 284px;
+}
+.container p:nth-of-type(1) {
+    font: var(--oxygen);
+    color: var(--purple);
+}
+.container p:nth-of-type(2) {
+    font: var(--caption);
+    color: var(--purple);
+    opacity: .7;
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 1132px;
+        height: 493px;
+        padding: 70px;
+        text-align: center;
+    }
+    .container__size-2 {
+        height: 438px;
+    }
+    .container img {
+        width: 80px;
+        height: 80px;
+    }
+    .container p:nth-of-type(1) {
+        font: var(--headline4);
+        color: var(--purple);
+    }
+    .container p:nth-of-type(2) {
+        font: var(--headline5);
+        color: var(--purple);
+        opacity: .5;
+    }
+}

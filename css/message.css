@@ -1,0 +1,19 @@
+.message {
+    display: flex-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+.text__1 {
+    font: var(--headline5);
+    color: var(--purple);
+    padding-top: 40px;
+}
+.text__2 {
+    font: var(--headline5);
+    color: var(--purple);
+}
+.flecha {
+    padding-bottom: 10px;
+}
