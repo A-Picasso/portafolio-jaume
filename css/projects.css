@@ -22,8 +22,8 @@
     .projects {
         display: flex;
         align-items: center;
-        padding-block-start: 80px;
-        padding-block-end: 80px;
+        padding-block-start: 100px;
+        padding-block-end: 100px;
         gap: 32px;
     }
     .project__img {

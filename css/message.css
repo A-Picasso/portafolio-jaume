@@ -1,19 +1,33 @@
 .message {
-    display: flex-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 24px;
+    gap: 14px;
+    padding-block-start: 65px;
+}
+.message h2, .message p {
+    margin: 0;
+    padding: 0;
 }
 .text__1 {
     font: var(--headline5);
     color: var(--purple);
-    padding-top: 40px;
 }
 .text__2 {
     font: var(--headline5);
     color: var(--purple);
 }
 .flecha {
-    padding-bottom: 10px;
+    padding-block-end: 35px;
+}
+@media screen and (min-width: 768px){
+    .message {
+        padding-block-start: 180px;
+        gap: 24px;
+    }
+    .flecha {
+        padding-block-end: 60px;
+    }
 }

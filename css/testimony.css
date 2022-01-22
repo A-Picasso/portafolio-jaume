@@ -8,14 +8,13 @@
     border-radius: 24px;
     background: rgba(255, 255, 255, 0.2);
     padding: 24px;
-    border-top: 2px solid var(--white);
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 14px;
     position: relative;
+    box-shadow: 4px 4px 5px var(--white) inset;
 }
 .container__size-1 {
     height: 329px;
