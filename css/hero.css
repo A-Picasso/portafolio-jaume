@@ -40,6 +40,9 @@
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+.hero .button:hover {
+    background: rgb(182, 1, 182);
+}
 
 @media screen and (min-width: 768px) {
     .hero {

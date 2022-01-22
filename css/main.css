@@ -31,6 +31,7 @@
     --green: #42E2B8;
     --white: #FFFFFF;
     --grey: #858C94;
+    --pink: #E4007C;
 }
 body {
     background: var(--gradient);
@@ -38,4 +39,10 @@ body {
     font: var(--body1);
     color: var(--purple);
     margin: 0;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(182, 1, 182);
 }

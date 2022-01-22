@@ -3,3 +3,6 @@
     display: flex;
     gap: 16px;
 }
+.social a:hover {
+    border: 2px dotted var(--pink);
+}
