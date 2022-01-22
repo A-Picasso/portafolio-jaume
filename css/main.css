@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import "./header.css";
 @import "./hero.css";
+@import "./social.css";
 @import "./button.css";
 @import "./button-icons.css";
 @import "./wrapper.css";
@@ -8,6 +9,10 @@
 @import "./message.css";
 @import "./testimony.css";
 @import "./projects.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
 :root {
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     --fontBase: 'Poppins', sans-serif;
@@ -25,10 +30,12 @@
     --purple-soft: #6F34FE;
     --green: #42E2B8;
     --white: #FFFFFF;
+    --grey: #858C94;
 }
 body {
     background: var(--gradient);
     min-block-size: 100vh;
     font: var(--body1);
     color: var(--purple);
+    margin: 0;
 }

@@ -19,9 +19,6 @@
     flex-direction: column;
     gap: 16px;
 }
-.hero__social {
-    padding-block-end: 24px;
-}
 .fondo {
     width: 328px;
     height: 330px;
